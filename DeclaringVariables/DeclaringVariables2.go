@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+// Constructor
+
+func init() {
+	fmt.Println("Initialized...")
+
+}
+
 func main() {
 	// Declaring multiple vars
 
