@@ -1,4 +1,4 @@
-package Functions
+package main
 
 // Lets declare a function
 // Function format is as follows:
@@ -42,7 +42,7 @@ func CalcArea2(length, width int) (_len, _width, area int) {
 	return // No explicit return
 }
 
-func Functions() {
+func main() {
 	variable := add(10, 5, 20)
 
 	variable2 := add2(20, 12, 1)
@@ -64,7 +64,7 @@ func Functions() {
 	area1, _, _ := CalcArea2(10, 23)
 
 	fmt.Println(
-		"\nArea1:",area1,
+		"\nArea1:", area1,
 	)
 
 }

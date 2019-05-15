@@ -1,8 +1,8 @@
-package CalculateAreaOfSquare
+package main
 
 import "fmt"
 
-func CalculateAreaOfSquare() {
+func main() {
 	// Declaring multiple vars
 
 	var length, width = 100, 200

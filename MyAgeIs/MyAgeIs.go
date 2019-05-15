@@ -1,8 +1,8 @@
-package MyAgeIs
+package main
 
 import "fmt"
 
-func MyAgeIs() {
+func main() {
 	var age int // declare int variable
 
 	fmt.Println("my age is", age)
