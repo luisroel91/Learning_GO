@@ -22,7 +22,8 @@ func main() {
 		// checks into our conditional
 	} else if number0 < 20 && number1 > 60 {
 		fmt.Print("Both numbers passed the test")
-	} else { // Else must be on same line as closing bracket
+	} else { // Else must be on same line as closing bracket due to how Go invisibly
+		// inserts semicolons
 
 	}
 
@@ -33,6 +34,7 @@ func main() {
 	// if statement; condition {
 	//
 	// }
+	//
 
 	if number2++; number2 > 100 {
 		fmt.Println("\nWe added 1 to the number2 var")
