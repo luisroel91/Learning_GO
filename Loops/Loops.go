@@ -15,6 +15,8 @@ func main() {
 	// or equal to 500. We use an if statement to break the loop when the
 	// counter reaches 201. If its an even number, it notifies the user
 	// and continues the loop using the continue keyword.
+	//
+	// One thing to add is that there is only one type of loop in go...the for loop.
 
 	for counter := 1; counter <= 500; counter++ {
 		fmt.Println(
@@ -25,7 +27,7 @@ func main() {
 			break // loops terminates when counter reaches 200
 		}
 
-		if counter % 2 == 0 {
+		if counter%2 == 0 {
 			fmt.Println(
 				"Counter is an even number:", counter,
 			)
