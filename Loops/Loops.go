@@ -25,7 +25,7 @@ func main() {
 			break // loops terminates when counter reaches 200
 		}
 
-		if counter%2 == 0 {
+		if counter % 2 == 0 {
 			fmt.Println(
 				"Counter is an even number:", counter,
 			)
