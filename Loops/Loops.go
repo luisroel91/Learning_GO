@@ -15,7 +15,6 @@ func main() {
 	// or equal to 500. We use an if statement to break the loop when the
 	// counter reaches 201. If its an even number, it notifies the user
 	// and continues the loop using the continue keyword.
-	//
 
 	for counter := 1; counter <= 500; counter++ {
 		fmt.Println(
