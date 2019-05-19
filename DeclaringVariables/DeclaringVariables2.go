@@ -47,6 +47,7 @@ func main() {
 	// this way. It can only be used when at least
 	// one of the variables on the left side is newly
 	// declared
+	//
 
 	integer3, name := 21, "Luis"
 

@@ -9,8 +9,9 @@ func main() {
 	// prints a new line at the end of every sequence.
 	// The second loop (inner) prints an asterisk for
 	// every iteration.
+	//
 
-	total_lines := 10 // Total lines in sequence
+	total_lines := 20 // Total lines in sequence
 
 	for counter := 0; counter < total_lines; counter++ { // Print new line every iteration
 

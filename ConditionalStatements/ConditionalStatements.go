@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	// We'll need this to check against
 	// Shorthand declaration
+	//
 
 	number0 := 1
 	number1 := 61
@@ -12,6 +13,7 @@ func main() {
 	// If statement, as in other languages
 	// if condition is true, then code in
 	// body runs
+	//
 
 	if number0 > 15 {
 		fmt.Print("Number0 is greater than 15")

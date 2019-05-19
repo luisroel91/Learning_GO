@@ -17,6 +17,7 @@ func main() {
 	// and continues the loop using the continue keyword.
 	//
 	// One thing to add is that there is only one type of loop in go...the for loop.
+	//
 
 	for counter := 1; counter <= 500; counter++ {
 		fmt.Println(
