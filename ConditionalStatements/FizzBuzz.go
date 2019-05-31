@@ -9,7 +9,7 @@ func main() {
 
 	for counter <= iterLimit {
 
-		switch true {
+		switch {
 
 		case counter%3 == 0 && counter%5 == 0:
 			fmt.Println("FizzBuzz:", counter)
