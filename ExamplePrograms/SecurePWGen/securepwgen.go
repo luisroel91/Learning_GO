@@ -1,7 +1,5 @@
 package main
 
-// Now we'll take our util and use it to generate our PW's
-// Remember, an ascii value is simply a number
 import (
 	"crypto/rand"
 	"encoding/base64"
@@ -64,7 +62,7 @@ func main() {
 		fmt.Println("Using default PW size of 8...")
 		PWLEN = 8
 	}
-	// Generate PW, our functionr returns an error
+	// Generate PW, our function returns an error
 	// We need to handle it as well
 	resultStr, err := generateString(PWLEN)
 	if err != nil {
