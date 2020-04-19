@@ -29,13 +29,13 @@ func checkServer(uri string, ch chan string) {
 	// If we don't get an error then we can assume server is up
 	// Feed data into channel
 	ch <- uri + " is up"
+	return
 }
 
 func printResult(ch chan string) {
 	for result := range ch {
 		fmt.Println(result)
 	}
-	close(ch)
 }
 
 func main() {
@@ -56,4 +56,5 @@ func main() {
 		go checkServer(server, c)
 	}
 	printResult(c)
+	close(c)
 }
